@@ -39,9 +39,8 @@ if [ $# == 0 ] || [ $# -lt 9 ] || [ $# -gt 9 ]; then
         echo ""
     fi
     ayuda
+    exit 0
 fi
-
-exit 0
 
 function bye(){
     if [ -f $file ];then
